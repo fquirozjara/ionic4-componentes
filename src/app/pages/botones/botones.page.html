@@ -1,0 +1,51 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Regresar" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Botones</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button color="primary">
+        <ion-icon name="heart"></ion-icon>
+      </ion-button>
+
+      <ion-button color="primary">
+        <ion-icon name="star"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button expand="full" size="small">
+    small
+  </ion-button>
+  <ion-button expand="full" size="default">
+    Default
+  </ion-button>
+  <ion-button expand="full" size="large">
+    Large
+  </ion-button>
+
+
+  <ion-button class="top-20" expand="full" routerLink="/alert" color="tertiary">alert</ion-button>
+
+  <!-- ion grid-->
+
+  <ion-row class="top-20" >
+    <ion-col>
+        <ion-button expand="full" routerLink="/action-sheet" color="tertiary">action-sheet</ion-button>
+    </ion-col>
+    <ion-col>
+        <ion-button expand="full" routerLink="/avatar" color="tertiary">avatar</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <!-- fill -->
+<ion-button class="top-20" fill="clear">clear</ion-button>
+<ion-button class="top-20" fill="solid">solid</ion-button>
+<ion-button class="top-20" fill="outline">outline</ion-button>
+
+</ion-content>
